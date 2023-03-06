@@ -31,7 +31,7 @@
 							<li><a href="index.html">Heim</a></li>
 							<li><a href="Verkefni%201.html">Vefsíða</a></li>
 							<li><a href="Arduino.html">Framleiðsla, hönnun og forritun ígreyptra kerfa</a></li>
-							<li><a href="Verkefni%203.html">Verkefni 3</a></li>
+							<li><a href="Verkefni%203.html">Tölvustuddur skurður</a></li>
                             <li><a href="Verkefni%204.html">Verkefni 4</a></li>
                             <li><a href="Verkefni%205.html">Verkefni 5</a></li>
                             <li><a href="CV.html">Ferilskrá</a></li>
@@ -47,12 +47,69 @@
 									<header class="major">
 										<h1>Tölvustuddur skurður</h1>
 									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<p>Þetta verkefni er skipt í tvo hluta. Að nota vinylskerarann og lazerskerarann.</p>
+                                    <h2>Vinyl</h2>
+                                    <p>Ég fann mynd á google af Ferrari Formula 1 bíl og setti inn á inkscape. Fyrst breytti ég myndinni þannig hún væri svört með því að fara í Path>Bitmap Trace og breytti threshold í 0.600.</p>
+                                    <span class="image main"><img src="images/ferrari.png" alt="" /></span>
+                                    <p>Síðan færði ég myndina yfir á tölvu sem var tengd vinylskerarann og frá þaðan breytti ég mydninni í .pdf skrá. Hafliði hjálpaði mér að stilla vinylskerarann sjálfann með því að stilla hjólin og herða þannig vinylinn yrði kjur. Loks var allt tilbúið að tími til að prenta. Þetta var loka niðurstaðan</p>
+                                    <span class="image main"><img src="images/vinyl.jpg" alt="" /></span>
                                     <h2>Kerf prufa</h2>
 									<p>Til að ákvarða hversu mikið kerf sem laserskerarinn þurfti að gera prufu. Ég gerði prufuna með Aron Beck og Tómas Inga. Til þess að ákvarða kerfið skárum við tíu kass og mældum lengdina á kössunum og svo holuna í plastinu sem kassarnir voru skornir úr.</p>
-									<p>Lengd holunar var 9.9mm og samanlögð lengd kassana var 9.69mm. Þá fengum við að kerfið okkar væri (9.9-9.69)/11=0.019mm </p>
+									<p>Lengd holunar var 9.9mm og samanlögð lengd kassana var 9.69mm. Þá fengum við að kerfið okkar væri (9.9-9.69)/11=0.019mm en ég námunda það í 0.020mm </p>
+                                    <span class="image main"><img src="images/kerf.jpg" alt="" /></span>
                                     <h2>3D hönnun</h2>
-                                    <p>Ég ákvað að lazerskera skrifstofuskúffu fyrir litlu verkfærin mín. Ég byrjaði á því að mæla hvað lengsta verkfærið, sem er skífumálið mitt, og notaði það sem grunn á hversu stór skúffan ætti að vera. Ég endaði á því að hafa hana 250mm á lengd, 100mm á breidd og 50mm á hæð.</p>
+                                    <p>Ég ákvað að lazerskera skrifstofuskúffu fyrir litlu verkfærin mín. Ég byrjaði á því að mæla hvað lengsta verkfærið, sem er skífumálið mitt, og notaði það sem grunn á hversu stór skúffan ætti að vera. Ég endaði á því að hafa hana 250mm á lengd, 100mm á breidd og 50mm á hæð og hliðraði svo allar hliðar um 0.020mm.</p>
+                                    <span class="image main"><img src="images/assembly.png" alt="" /></span>
+                                    <p>Til þess að gera parametríska hönnun fór ég eftir þessu myndbandi.</p>
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/YV5BSSArjjU"> </iframe>
+                                    <h2>Inkscape</h2>
+                                    <p>Eftir ég var búinn að teikna upp allarhliðarnar á skúffunni breyti ég þeim í .dxf skrá og færði yfir á inkscape þar sem ég raðaði upp öllum hliðunum á skúffunni. Svo breytti ég línu þykktinni í 0.02 og breytti pappírsstærðinni í 500mmx500mm með því að fara í File => Document Properties. </p>
+                                    <span class="image main"><img src="images/inkscape1.png" alt="" /></span>
+                                    <h2>Lazerskurður</h2>
+                                    <p>Efnið sem ég valdi mér var 3mmx500mmx500mm svart akríl plast. Í lazerskeranum sjálfum þurfti ég að staðsetja teikninguna frá inkscape. Svo í stillingunum setti ég á autofocus og 20% speed, 100% power, 100% frequency og 3mm þykkt. Eftir það var þurfti ég að opna fyrir vaccum lokanum og ýta á play takkann.</p>
+                                    <span class="image main"><img src="images/lazerskerari.jpg" alt="" /></span>
+                                    <h2>Klúður</h2>
+                                    <p>Eftir lazerskurðinn komst ég að því að sumstaðar gat ég ekki púslað saman skúffuna, aðalega á framhlið og bakhlið. Þá komst ég að því eftir að kíkja í solidworks hafði ég hliðrar sumstaðar um 0.2mm en það átti að vera 0.02mm. Ég hefði getað forðast þennan hausverk með því að gera prufu með lazerskerarann sem ég hef til hugar í framtíðinni. En þetta var auðveldlega lagað með því að þjala þær hliðar aðeins niður.</p>
+                                    <h2>Niðurstöður</h2>
+                                    <p>Þetta eru niðurstöðurnar.</p>
+                                    <span class="image main"><img src="images/final_sk%C3%BAffa.jpg" alt="" /></span>
+                                    <table>
+  <tr>
+    <th>Verkefnihluti</th>
+    <th>Skýring</th>
+    <th>Tími</th>
+  </tr>
+  <tr>
+    <td>Vinyl</td>
+    <td>Finna mynd, laga mynd í inkscape og prentun</td>
+    <td>1 klst.</td>
+  </tr>
+  <tr>
+    <td>Kerf prufa</td>
+    <td>Finna lengd á kerf</td>
+    <td>0.5 klst.</td>
+  </tr>
+  <tr>
+    <td>3D hönnun</td>
+    <td>Hönnun og teikning af skúffunni</td>
+    <td>6 klst.</td>
+  </tr>
+ <tr>
+    <td>Lazerskurður</td>
+    <td>Uppsetning í inkscape og lazerskurður</td>
+    <td>1 klst.</td>
+  </tr>
+  <tr>
+    <td>Skrásetning</td>
+    <td>Skrásetning á vefsíðu</td>
+    <td>5 klst.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>13.5 klst.</td>
+  </tr>
+</table>
 								</div>
 							</section>
 
